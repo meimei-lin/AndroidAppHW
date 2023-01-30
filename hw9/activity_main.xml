@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDFF3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tesignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登入"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/account1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="帳號"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/useraccount"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:hint="@string/account"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="密碼"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/userpassword"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:ems="15"
+                android:hint="@string/輸入密碼"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/userregister"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="150dp"
+            android:background="#1F9DEA"
+            android:onClick="onreg"
+            android:text="註冊"
+            android:textColor="#5D4037"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="#1F9DEA"
+            android:onClick="onsign"
+            android:text="登入"
+            android:textColor="#5D4037"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</LinearLayout>
