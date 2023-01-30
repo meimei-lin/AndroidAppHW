@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68BFE6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnzero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="60dp"
+        android:autoText="false"
+        android:background="#7FCBED"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:onClick="settozero"
+        android:rotationX="2"
+        android:text="0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#9C27B0"
+        android:textDirection="firstStrongRtl"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnadd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="305dp"
+        android:background="#E68696FC"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="btnaddone"
+        android:text="計數加1"
+        android:textColor="#F1DD2B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnsub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="307dp"
+        android:background="#E68696FC"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="btnsubone"
+        android:text="計數減1"
+        android:textColor="#F1DD2B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnadd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="412dp"
+        android:background="#E68696FC"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="btnaddtwo"
+        android:text="計數加2"
+        android:textColor="#F1DD2B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnsub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="415dp"
+        android:background="#E6DC1443"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="btnsubtwo"
+        android:text="計數減2"
+        android:textColor="#F1DD2B"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
