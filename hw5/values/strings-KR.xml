@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="height">높이(CM):</string>
+    <string name="weight">무게(KG):</string>
+    <string name="BMI">BMI 계산</string>
+    <string name="CLEAR">분명한</string>
+    <string name="result">결과:</string>
+</resources>

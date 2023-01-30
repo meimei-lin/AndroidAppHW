@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="height">Hauteur(cm):</string>
+    <string name="weight">Poids(kg):</string>
+    <string name="BMI">calculer</string>
+    <string name="CLEAR">dégager</string>
+    <string name="result">résultat:</string>
+</resources>

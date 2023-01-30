@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="height">身長(cm):</string>
+    <string name="weight">重量(キロ):</string>
+    <string name="BMI">BMIを計算する</string>
+    <string name="CLEAR">クリア</string>
+    <string name="result">結果:</string>
+</resources>

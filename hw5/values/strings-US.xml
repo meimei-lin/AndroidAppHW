@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">hw5</string>
+    <string name="height">Height(CM):</string>
+    <string name="weight">Weight(KG):</string>
+    <string name="BMI">Calculate BMI</string>
+    <string name="CLEAR">Clear</string>
+    <string name="result">RESULT:</string>
+</resources>
