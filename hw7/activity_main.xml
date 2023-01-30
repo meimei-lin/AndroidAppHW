@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3E6AC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="6dp"
+        android:text="請點餐"
+        android:textColor="#AA00FF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:text="薯條"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="178dp"
+        android:text="汽水"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="-87dp"
+        android:layout_marginTop="177dp"
+        android:layout_toRightOf="@id/cb1"
+        android:text="咖啡"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="49dp"
+        android:text="冰棒"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@id/cb1"
+        android:text="漢堡"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="-238dp"
+        android:text="玉米濃湯"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb7"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="-82dp"
+        android:layout_marginTop="275dp"
+        android:layout_toRightOf="@id/cb4"
+        android:text="蛋塔"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb8"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginLeft="-87dp"
+        android:layout_marginTop="275dp"
+        android:layout_toRightOf="@id/cb5"
+        android:text="蛋糕"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <CheckBox
+        android:id="@+id/cb9"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cb6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="74dp"
+        android:text="聖代"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/cb1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/frenchfry" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/cb2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="133dp"
+        app:srcCompat="@drawable/hamburger" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/cb4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="181dp"
+        app:srcCompat="@drawable/coffee" />
+
+    <ImageView
+        android:id="@+id/iv5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/cb5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="142dp"
+        app:srcCompat="@drawable/softdrink" />
+
+    <ImageView
+        android:id="@+id/iv6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/soup" />
+
+    <ImageView
+        android:id="@+id/iv7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="376dp"
+        android:layout_toRightOf="@id/cb7"
+        app:srcCompat="@drawable/eggtart" />
+
+    <ImageView
+        android:id="@+id/iv8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/cb8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="147dp"
+        app:srcCompat="@drawable/cake" />
+
+    <ImageView
+        android:id="@+id/iv9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/cb9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="-130dp"
+        android:layout_toLeftOf="@id/cb9"
+        app:srcCompat="@drawable/dessert" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/icecream" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/output1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="450dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/frenchfry" />
+
+        <ImageView
+            android:id="@+id/output2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="450dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/hamburger" />
+
+        <ImageView
+            android:id="@+id/output3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="450dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/icecream" />
+
+        <ImageView
+            android:id="@+id/output4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/coffee" />
+
+        <ImageView
+            android:id="@+id/output5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="450dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/softdrink" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/output6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="550dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/soup" />
+
+        <ImageView
+            android:id="@+id/output7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/eggtart" />
+
+        <ImageView
+            android:id="@+id/output8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/cake" />
+
+        <ImageView
+            android:id="@+id/output9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/dessert" />
+
+    </LinearLayout>
+
+</RelativeLayout>
