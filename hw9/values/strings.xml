@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hw9</string>
+    <string name="account">account</string>
+    <string name="輸入密碼">password</string>
+    <string name="輸入美金">輸入美金</string>
+    <string name="輸入人民幣">輸入人民幣</string>
+    <string name="輸入外幣金額">輸入外幣金額</string>
+    <string name="輸入匯率">輸入匯率</string>
+</resources>
