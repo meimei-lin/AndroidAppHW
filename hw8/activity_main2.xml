@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDDE8C"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/path2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="43dp"
+        android:text="2"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/strat2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="353dp"
+        android:background="#CEADEA88"
+        android:onClick="onstart2_1"
+        android:text="啟動Activity 1"
+        android:textColor="#2962FF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/close1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="494dp"
+        android:background="#CEADEA88"
+        android:onClick="on_close1"
+        android:text="結束Activity"
+        android:textColor="#2962FF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/start2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="227dp"
+        android:background="#CEADEA88"
+        android:onClick="onstart2_3"
+        android:text="啟動Activity 3"
+        android:textColor="#2962FF"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="48dp"
+        android:background="#EDDE8C"
+        android:text="Activity 2"
+        android:textColor="#A40DEF"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
