@@ -32,13 +32,6 @@ public class MenuAdapter extends BaseAdapter {
        this.onSelectListener = onSelectListener;
     }
 
-    public void setData(List<Food> beans){
-        this.beans.clear();//加this代表 private List<FoodBean> beans;的beans
-        this.beans.addAll(beans);
-        notifyDataSetChanged();//通知listview刷新數據
-    }
-
-
     @Override
     public int getCount() {
         return beans.size();

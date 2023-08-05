@@ -78,11 +78,12 @@ public class order_record extends AppCompatActivity {
         setData();
     }
     public void setData(){
-        // 获取保存的用户ID
+        // 獲取目前user_id
         SharedPreferences sharedPreferences = getSharedPreferences("UserId", MODE_PRIVATE);
         userId = sharedPreferences.getInt("user_id", -1);
         User user = new User(userId,null,null);
-        List<Order> data = sqlOrder.getOrdersByUser(user);
+
+        List<Order> data = sqlOrder.getOrdersByUser(user); //獲取歷史訂單
         OrderRecordAdapter orderRecordAdapter = new OrderRecordAdapter(this);
         orderRecordAdapter.setData(data);
         lv_record.setAdapter(orderRecordAdapter);

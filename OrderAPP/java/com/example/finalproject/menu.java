@@ -40,18 +40,16 @@ import java.util.List;
 
 public class menu extends AppCompatActivity implements View.OnClickListener{
     private ListView lv_list,lv_cart;
-    private MenuAdapter menuAdapter,adapter;
+    private MenuAdapter menuAdapter;
     private CartAdapter cartAdapter;
     private TextView tv_count,tv_money,tv_not_enough,tv_clear,tv_settle_accounts;
-    private ImageView iv_shop_pic,iv_shop_car;
-    public static final int MSG_COUNT_OK = 1;//獲取溝務車中的商品數量
+    private ImageView iv_shop_car;
+    public static final int MSG_COUNT_OK = 1;//獲取購物車中的商品數量
     private MHandler mHandler;
     private int totalCount = 0;
     private int totalMoney;
     private List<Food>cartFoodList;
-    private List<Shop> foodList;
     private RelativeLayout rl_car_list;
-    private SqlUser  mSQLite;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {

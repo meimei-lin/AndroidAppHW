@@ -40,7 +40,6 @@ public class order extends AppCompatActivity implements View.OnClickListener {
     private TextView tv_total_cost, tv_payment, tv_back;
     private List<Food> cartFoodList;
     private int money;
-    private SqlUser mSQLite;
     private SqlOrder oSQLite;
     private int userId;
 
@@ -105,11 +104,11 @@ public class order extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.tv_payment:
-                // 获取保存的用户ID
+                // 獲取目前user_id
                 SharedPreferences sharedPreferences = getSharedPreferences("UserId", MODE_PRIVATE);
                 userId = sharedPreferences.getInt("user_id", -1);
                 Log.d("TEST","USER_ID_ORDER:"+userId);
-                saveOrderToDatabase(userId);
+                saveOrderToDatabase(userId); //根據user_id將訂單存入資料庫
                 cartFoodList.clear();
                 dialog_close();
                 break;

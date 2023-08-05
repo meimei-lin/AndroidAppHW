@@ -23,7 +23,7 @@ public class SqlOrder extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // 創建Order表
+        // 創建orders表
         db.execSQL("CREATE TABLE IF NOT EXISTS orders(" +
                 "_id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "user_id INTEGER ," +

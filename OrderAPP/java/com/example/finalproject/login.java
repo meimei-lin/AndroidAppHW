@@ -47,7 +47,7 @@ public class login extends AppCompatActivity {
             ArrayList<User> data = mSQlite.getAllDATA();
             boolean user = false;
             for (int i = 0; i < data.size(); i++) {
-                User userdata = data.get(i);   //可存储账号数量
+                User userdata = data.get(i);   //用來存帳號數量
                 if (account.equals(userdata.getAccount()) && password.equals(userdata.getPassword())) {
                     user = true;
                     break;
@@ -57,7 +57,7 @@ public class login extends AppCompatActivity {
             }
             if (user) {
                 int user_id = getCurrentUserId(account);
-                // 保存用户ID到SharedPreferences
+                // 保存User_id到SharedPreferences
                 SharedPreferences sharedPreferences = getSharedPreferences("UserId", MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putInt("user_id", user_id);
@@ -66,7 +66,7 @@ public class login extends AppCompatActivity {
                 Toast.makeText(login.this, "成功登入", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(login.this, firstpage.class);
                 intent.putExtra("username",account);
-                intent.putExtra("password",password);  //展示账号密码功能
+                intent.putExtra("password",password);
 
                 startActivity(intent);
                 finish();
@@ -86,7 +86,7 @@ public class login extends AppCompatActivity {
                 return userdata.getId();
             }
         }
-        return -1; // 返回-1表示未找到匹配的用户ID
+        return -1; // 返回-1代表沒找到目前user_id
     }
 
 
