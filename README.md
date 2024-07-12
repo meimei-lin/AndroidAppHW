@@ -1,4 +1,4 @@
-# AndroidAppHW
+## 嵌入式系統軟體設計-開發Android應用程式
 ### 作業1:ConstraintLayout練習-排數字1~5
 ### 作業2:LinearLayout練習-排數字1~5
 ### 作業3:計數加1、減1、加2、減2
